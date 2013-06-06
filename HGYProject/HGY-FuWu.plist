@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>   <!-- 所有服务，规定不超过四个 -->
+    <dict>          <!-- 每项服务 -->
+        <key>fuWuId</key>   
+        <string>fuwu-phzb</string>     <!-- 服务id，fuwu-phzb, fuwu-lydj, fuwu-lyzs, fuwu-lyaz, fuwu-shcz -->
+        <key>name</key>
+        <string>盆花租摆</string>     <!-- 服务名称 -->
+        <key>defaultImage</key>
+        <string>goumai_1.png</string>    <!-- 服务默认图 -->
+        <key>biaoGe</key>                <!-- 表格图名 -->
+        <string>LYDJ-biaoge.png</string>
+        <key>details</key>
+        <array>                         <!-- 服务详细图 -->
+            <string>goumai_1.png</string>
+            <string>goumai_1.png</string>
+        </array>
+    </dict>
+    <dict>          <!-- 每项服务 -->
+        <key>fuWuId</key>
+        <string>fuwu-lydj</string>     <!-- 服务id，fuwu-phzb, fuwu-lydj, fuwu-lyzs, fuwu-lyaz, fuwu-shcz -->
+        <key>name</key>
+        <string>礼仪奠基</string>     <!-- 服务名称 -->
+        <key>defaultImage</key>
+        <string>goumai_1.png</string>    <!-- 服务默认图 -->
+        <key>biaoGe</key>                <!-- 表格图名 -->
+        <string>LYDJ-biaoge.png</string>
+        <key>details</key>
+        <array>                         <!-- 服务详细图 -->
+            <string>goumai_1.png</string>
+            <string>goumai_1.png</string>
+        </array>
+    </dict>
+    <dict>          <!-- 每项服务 -->
+        <key>fuWuId</key>
+        <string>fuwu-lyzs</string>     <!-- 服务id，fuwu-phzb, fuwu-lydj, fuwu-lyzs, fuwu-lyaz, fuwu-shcz -->
+        <key>name</key>
+        <string>礼仪追思</string>     <!-- 服务名称 -->
+        <key>defaultImage</key>
+        <string>goumai_1.png</string>    <!-- 服务默认图 -->
+        <key>biaoGe</key>                <!-- 表格图名 -->
+        <string>LYDJ-biaoge.png</string>
+        <key>details</key>
+        <array>                         <!-- 服务详细图 -->
+            <string>goumai_1.png</string>
+            <string>goumai_1.png</string>
+            <string>goumai_1.png</string>
+        </array>
+    </dict>
+    <dict>          <!-- 每项服务 -->
+        <key>fuWuId</key>
+        <string>fuwu-lyaz</string>     <!-- 服务id，fuwu-phzb, fuwu-lydj, fuwu-lyzs, fuwu-lyaz, fuwu-shcz -->
+        <key>name</key>
+        <string>礼仪安葬</string>     <!-- 服务名称 -->
+        <key>defaultImage</key>
+        <string>goumai_1.png</string>    <!-- 服务默认图 -->
+        <key>biaoGe</key>                <!-- 表格图名 -->
+        <string>LYDJ-biaoge.png</string>
+        <key>details</key>
+        <array>                         <!-- 服务详细图 -->
+            <string>goumai_1.png</string>
+            <string>goumai_1.png</string>
+            <string>goumai_1.png</string>
+        </array>
+    </dict>
+    
+</array>
+</plist>

@@ -1,0 +1,1002 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="2.0" toolsVersion="3084" systemVersion="11G63" targetRuntime="iOS.CocoaTouch.iPad" propertyAccessControl="none" initialViewController="Cur-Yr-7L0">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="2083"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="P0b-Cc-Qc0">
+            <objects>
+                <viewController id="Cur-Yr-7L0" customClass="HGYViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="M8d-Uy-hQZ" customClass="UIImageView">
+                        <rect key="frame" x="0.0" y="20" width="1024" height="748"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="gEV-cc-Mlg">
+                                <rect key="frame" x="952" y="25" width="42" height="42"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                <state key="normal" image="setting.png">
+                                    <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="goToSetting:" destination="Cur-Yr-7L0" eventType="touchUpInside" id="qM2-Rs-OoG"/>
+                                </connections>
+                            </button>
+                            <view contentMode="scaleToFill" id="O6Q-eT-hy0" customClass="UIImageView">
+                                <rect key="frame" x="113" y="178" width="859" height="351"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <subviews>
+                                    <button contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="Tov-Qw-MGU">
+                                        <rect key="frame" x="24" y="-343" width="194" height="143"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                        <state key="normal" image="liucheng_icon.png">
+                                            <color key="titleColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                                            <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                        </state>
+                                        <state key="highlighted" title="殡葬流程">
+                                            <color key="titleColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                                        </state>
+                                        <connections>
+                                            <segue destination="ckx-8z-mBL" kind="modal" id="pVl-Nv-5qQ"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" adjustsImageWhenHighlighted="NO" adjustsImageWhenDisabled="NO" lineBreakMode="middleTruncation" id="S6z-VE-eQQ">
+                                        <rect key="frame" x="24" y="570" width="194" height="143"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                        <state key="normal" image="chanpin_icon.png">
+                                            <color key="titleColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                                            <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                        </state>
+                                        <state key="highlighted" title="陵园产品">
+                                            <color key="titleColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                                        </state>
+                                        <connections>
+                                            <segue destination="pKl-8H-GGo" kind="modal" id="65g-V7-QNN"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="HxW-J1-6RB">
+                                        <rect key="frame" x="230" y="-343" width="194" height="143"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                        <state key="normal" image="jianjie_icon.png">
+                                            <color key="titleColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                                            <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                        </state>
+                                        <state key="highlighted" title="陵园简介">
+                                            <color key="titleColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                                        </state>
+                                        <connections>
+                                            <segue destination="j1d-75-NqS" kind="modal" id="bjb-27-6Nd"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="JDv-73-Z44">
+                                        <rect key="frame" x="230" y="570" width="194" height="143"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                        <state key="normal" image="fuwu_icon.png">
+                                            <color key="titleColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                                            <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                        </state>
+                                        <state key="highlighted" title="殡仪服务">
+                                            <color key="titleColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                                        </state>
+                                        <connections>
+                                            <segue destination="aAs-tj-JAQ" kind="modal" id="1lk-za-4T6"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="VIz-md-CAL">
+                                        <rect key="frame" x="436" y="-343" width="194" height="143"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                        <state key="normal" image="fengjing_icon.png">
+                                            <color key="titleColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                                            <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                        </state>
+                                        <state key="highlighted" title="陵园风景">
+                                            <color key="titleColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                                        </state>
+                                        <connections>
+                                            <segue destination="LWg-Jj-7Fy" kind="modal" id="ySL-Js-4za"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="tqI-wP-HBj">
+                                        <rect key="frame" x="436" y="570" width="194" height="143"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                        <state key="normal" image="goumai_icon.png">
+                                            <color key="titleColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                                            <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                        </state>
+                                        <state key="highlighted" title="购买流程">
+                                            <color key="titleColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                                        </state>
+                                        <connections>
+                                            <segue destination="Sol-mW-4b1" kind="modal" id="XM0-32-jug"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="jNC-eH-zAf">
+                                        <rect key="frame" x="642" y="-343" width="194" height="143"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                        <state key="normal" image="mingren_icon.png">
+                                            <color key="titleColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                                            <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                        </state>
+                                        <state key="highlighted" title="名人殡葬">
+                                            <color key="titleColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                                        </state>
+                                        <connections>
+                                            <segue destination="zCk-FB-eJp" kind="modal" id="pIS-z4-XaO"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="sWY-W5-MwP">
+                                        <rect key="frame" x="642" y="570" width="194" height="143"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                        <state key="normal" image="jiaotong_icon.png">
+                                            <color key="titleColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                                            <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                        </state>
+                                        <state key="highlighted" title="陵园交通">
+                                            <color key="titleColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                                        </state>
+                                        <connections>
+                                            <segue destination="kbp-nB-smo" kind="modal" id="8MR-ub-sh6"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="iSh-QD-iRM"/>
+                    <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
+                    <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+                    <connections>
+                        <outlet property="backgroundImageView" destination="M8d-Uy-hQZ" id="5kx-dH-d33"/>
+                        <outlet property="chanPinButton" destination="S6z-VE-eQQ" id="th0-gk-ztH"/>
+                        <outlet property="contentBackgroundImageView" destination="O6Q-eT-hy0" id="1PT-cE-PNE"/>
+                        <outlet property="fengJingButton" destination="VIz-md-CAL" id="pbA-iO-DWg"/>
+                        <outlet property="fuWuButton" destination="JDv-73-Z44" id="UHb-2H-OlJ"/>
+                        <outlet property="gouMaiButton" destination="tqI-wP-HBj" id="Rrs-YH-KfG"/>
+                        <outlet property="jianJieButton" destination="HxW-J1-6RB" id="E2M-u4-7bg"/>
+                        <outlet property="jiaoTongButton" destination="sWY-W5-MwP" id="ILq-oI-A3r"/>
+                        <outlet property="liuChengButton" destination="Tov-Qw-MGU" id="QNb-nt-7DN"/>
+                        <outlet property="mingRenButton" destination="jNC-eH-zAf" id="q2T-Pd-Hmh"/>
+                        <outlet property="view" destination="M8d-Uy-hQZ" id="5DE-Ei-WVF"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="qob-eu-FML" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-98" y="-785"/>
+        </scene>
+        <!--Liu Cheng View Controller - 殡葬流程-->
+        <scene sceneID="KXk-gD-M6O">
+            <objects>
+                <viewController id="ckx-8z-mBL" customClass="HGYLiuChengViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="6hd-k1-9qg" customClass="UIImageView">
+                        <rect key="frame" x="0.0" y="20" width="1024" height="748"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="q5o-RC-Eij">
+                                <rect key="frame" x="952" y="25" width="42" height="42"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                <state key="normal" image="setting.png">
+                                    <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="goToSetting:" destination="ckx-8z-mBL" eventType="touchUpInside" id="iQl-le-sHZ"/>
+                                </connections>
+                            </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" id="Cgn-c8-Asb">
+                                <rect key="frame" x="450" y="24" width="124" height="44"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="殡葬流程" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="Fcf-L6-7kv">
+                                <rect key="frame" x="462" y="35" width="100" height="22"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="20"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="jGN-G1-SN2">
+                                <rect key="frame" x="30" y="25" width="42" height="42"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                <state key="normal" image="home.png">
+                                    <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="goToMainPage:" destination="ckx-8z-mBL" eventType="touchUpInside" id="AEI-o5-5Wa"/>
+                                </connections>
+                            </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="liucheng@2x.png" id="JsY-qc-dgA">
+                                <rect key="frame" x="41" y="100" width="942" height="455"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
+                    </view>
+                    <toolbarItems/>
+                    <navigationItem key="navigationItem" title="殡葬流程" id="sWS-3N-f5u"/>
+                    <simulatedToolbarMetrics key="simulatedBottomBarMetrics"/>
+                    <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
+                    <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+                    <connections>
+                        <outlet property="backgroundImageView" destination="6hd-k1-9qg" id="JZa-hM-ubm"/>
+                        <outlet property="titleBGImageView" destination="Cgn-c8-Asb" id="G9m-yI-gdx"/>
+                        <outlet property="titleLabel" destination="Fcf-L6-7kv" id="yeP-a6-ruZ"/>
+                        <outlet property="view" destination="6hd-k1-9qg" id="A54-k1-990"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="w6T-BD-NrN" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1517" y="-4505"/>
+        </scene>
+        <!--Jian Jie View Controller - 陵园简介-->
+        <scene sceneID="h4s-3R-cZB">
+            <objects>
+                <viewController id="j1d-75-NqS" customClass="HGYJianJieViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Wd4-vt-J8n" customClass="UIImageView">
+                        <rect key="frame" x="0.0" y="20" width="1024" height="748"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" id="GO3-5m-KeA" customClass="UIImageView">
+                                <rect key="frame" x="79" y="95" width="867" height="579"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="iV4-FI-Rca">
+                                        <rect key="frame" x="766" y="477" width="57" height="57"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                        <state key="normal" title="荣誉" backgroundImage="jieshao-BTbg1.png">
+                                            <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                            <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                        </state>
+                                        <state key="selected" backgroundImage="jieshao-BTbg.png">
+                                            <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        </state>
+                                        <state key="highlighted" title="荣誉" backgroundImage="jieshao-BTbg.png">
+                                            <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="showHonor:" destination="j1d-75-NqS" eventType="touchUpInside" id="glP-Lo-oV2"/>
+                                        </connections>
+                                    </button>
+                                    <button contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="RG8-GA-iR6">
+                                        <rect key="frame" x="689" y="477" width="57" height="57"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                        <state key="normal" title="简介" backgroundImage="jieshao-BTbg1.png">
+                                            <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                            <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                        </state>
+                                        <state key="selected" title="简介" backgroundImage="jieshao-BTbg.png">
+                                            <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        </state>
+                                        <state key="highlighted" title="简介" backgroundImage="jieshao-BTbg.png">
+                                            <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="showJianJie:" destination="j1d-75-NqS" eventType="touchUpInside" id="vXg-rh-mqB"/>
+                                        </connections>
+                                    </button>
+                                    <view clipsSubviews="YES" contentMode="scaleToFill" id="7ZT-CO-H0P" customClass="UIImageView">
+                                        <rect key="frame" x="20" y="362" width="828" height="100"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <subviews>
+                                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" id="140-aL-e7g">
+                                                <rect key="frame" x="10" y="20" width="808" height="60"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                            </scrollView>
+                                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" showsHorizontalScrollIndicator="NO" editable="NO" id="Gm7-I7-VuU">
+                                                <rect key="frame" x="10" y="15" width="808" height="60"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                            </textView>
+                                        </subviews>
+                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                    </view>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="jieshao-bgxiao2.png" id="0Ry-qV-1Wp">
+                                        <rect key="frame" x="780" y="462" width="28" height="14"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    </imageView>
+                                </subviews>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                            </view>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="hsO-gQ-vnt">
+                                <rect key="frame" x="952" y="25" width="42" height="42"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                <state key="normal" image="setting.png">
+                                    <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="goToSetting:" destination="j1d-75-NqS" eventType="touchUpInside" id="81Q-5S-f4C"/>
+                                </connections>
+                            </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" id="k4j-W9-UVZ">
+                                <rect key="frame" x="450" y="24" width="124" height="44"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="陵园简介" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="zqg-vw-erI">
+                                <rect key="frame" x="462" y="35" width="100" height="22"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="20"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="HwY-1V-dqn">
+                                <rect key="frame" x="30" y="25" width="42" height="42"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                <state key="normal" image="home.png">
+                                    <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="goToMainPage:" destination="j1d-75-NqS" eventType="touchUpInside" id="9Fp-eg-NXH"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
+                    </view>
+                    <toolbarItems/>
+                    <navigationItem key="navigationItem" title="陵园简介" id="qV0-ne-4PT"/>
+                    <simulatedToolbarMetrics key="simulatedBottomBarMetrics"/>
+                    <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
+                    <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+                    <connections>
+                        <outlet property="arrowImageView" destination="0Ry-qV-1Wp" id="BHb-dH-bPe"/>
+                        <outlet property="backgroundImageView" destination="Wd4-vt-J8n" id="dKh-V1-1bL"/>
+                        <outlet property="contentBackgroundImageView" destination="GO3-5m-KeA" id="Vam-9U-TDG"/>
+                        <outlet property="detailBackgroundImageView" destination="7ZT-CO-H0P" id="rpc-5X-Xav"/>
+                        <outlet property="honorButton" destination="iV4-FI-Rca" id="eiC-8R-kAj"/>
+                        <outlet property="jianJieButton" destination="RG8-GA-iR6" id="hfJ-5A-UZH"/>
+                        <outlet property="scrollView" destination="140-aL-e7g" id="6aQ-E8-IsS"/>
+                        <outlet property="textView" destination="Gm7-I7-VuU" id="fev-yC-Y3x"/>
+                        <outlet property="titleBGImageView" destination="k4j-W9-UVZ" id="575-vl-mWV"/>
+                        <outlet property="titleLabel" destination="zqg-vw-erI" id="vtx-Um-dEe"/>
+                        <outlet property="view" destination="Wd4-vt-J8n" id="ayL-uB-1SI"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="0Kz-r3-4N8" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1549" y="-3369"/>
+        </scene>
+        <!--Feng Jing View Controller - 陵园风景-->
+        <scene sceneID="8YR-A7-3jy">
+            <objects>
+                <viewController id="LWg-Jj-7Fy" customClass="HGYFengJingViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="es1-e9-vCt" customClass="UIImageView">
+                        <rect key="frame" x="0.0" y="20" width="1024" height="748"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="P40-tv-KdC">
+                                <rect key="frame" x="952" y="25" width="42" height="42"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                <state key="normal" image="setting.png">
+                                    <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="goToSetting:" destination="LWg-Jj-7Fy" eventType="touchUpInside" id="JTz-Kv-4Nk"/>
+                                </connections>
+                            </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" id="Z3x-aE-Ih0">
+                                <rect key="frame" x="439" y="24" width="145" height="44"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="陵园风景" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="Oae-1g-pRO">
+                                <rect key="frame" x="462" y="35" width="100" height="22"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="20"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="Jl8-Hb-kMW">
+                                <rect key="frame" x="30" y="25" width="42" height="42"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                <state key="normal" image="home.png">
+                                    <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="goToMainPage:" destination="LWg-Jj-7Fy" eventType="touchUpInside" id="xyD-YA-SfW"/>
+                                </connections>
+                            </button>
+                            <view clipsSubviews="YES" contentMode="scaleToFill" id="Iiy-Sa-7pJ" customClass="UIImageView">
+                                <rect key="frame" x="83" y="96" width="858" height="584"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                <subviews>
+                                    <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" style="plain" separatorStyle="none" rowHeight="205" sectionHeaderHeight="1" sectionFooterHeight="1" id="BSO-wQ-D6m">
+                                        <rect key="frame" x="0.0" y="27" width="858" height="529"/>
+                                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                        <connections>
+                                            <outlet property="dataSource" destination="LWg-Jj-7Fy" id="R7Q-tW-NWr"/>
+                                            <outlet property="delegate" destination="LWg-Jj-7Fy" id="dPp-SP-kcv"/>
+                                        </connections>
+                                    </tableView>
+                                </subviews>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="陵园风景" id="tOV-8L-4cC"/>
+                    <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
+                    <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+                    <connections>
+                        <outlet property="backgroundImageView" destination="es1-e9-vCt" id="TEC-4g-exW"/>
+                        <outlet property="contentBackgroundImageView" destination="Iiy-Sa-7pJ" id="gV5-HS-dMQ"/>
+                        <outlet property="tableView" destination="BSO-wQ-D6m" id="y9T-SJ-T7u"/>
+                        <outlet property="titleBGImageView" destination="Z3x-aE-Ih0" id="5WH-sL-Qgw"/>
+                        <outlet property="titleLabel" destination="Oae-1g-pRO" id="NMf-89-m89"/>
+                        <outlet property="view" destination="es1-e9-vCt" id="mh1-vl-g3U"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="KXS-if-nRH" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1581" y="-2313"/>
+        </scene>
+        <!--Ming Ren View Controller - 名人殡葬-->
+        <scene sceneID="JOl-iL-0Ru">
+            <objects>
+                <viewController id="zCk-FB-eJp" customClass="HGYMingRenViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="zHF-xu-l8e" customClass="UIImageView">
+                        <rect key="frame" x="0.0" y="20" width="1024" height="748"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="foY-XM-UI0">
+                                <rect key="frame" x="952" y="25" width="42" height="42"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                <state key="normal" image="setting.png">
+                                    <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="goToSetting:" destination="zCk-FB-eJp" eventType="touchUpInside" id="E4d-r3-nL6"/>
+                                </connections>
+                            </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" id="7He-HI-kHm">
+                                <rect key="frame" x="450" y="24" width="124" height="44"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="名人殡葬" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="qQ7-3k-7MH">
+                                <rect key="frame" x="462" y="35" width="100" height="22"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="20"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="ZI3-1q-7GB">
+                                <rect key="frame" x="30" y="25" width="42" height="42"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                <state key="normal" image="home.png">
+                                    <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="goToMainPage:" destination="zCk-FB-eJp" eventType="touchUpInside" id="cug-SR-K4o"/>
+                                </connections>
+                            </button>
+                            <view contentMode="scaleToFill" id="lPb-sI-O20" customClass="HHSmallRollView">
+                                <rect key="frame" x="0.0" y="200" width="1024" height="305"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="名人殡葬" id="Usx-S8-FdV"/>
+                    <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
+                    <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+                    <connections>
+                        <outlet property="backgroundImageView" destination="zHF-xu-l8e" id="zt4-5F-M05"/>
+                        <outlet property="rollView" destination="lPb-sI-O20" id="Q5y-S8-FbM"/>
+                        <outlet property="titleBGImageView" destination="7He-HI-kHm" id="Zje-RY-QVz"/>
+                        <outlet property="titleLabel" destination="qQ7-3k-7MH" id="nk3-3F-yCA"/>
+                        <outlet property="view" destination="zHF-xu-l8e" id="Eco-ye-e76"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ogV-o3-soA" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1573" y="-1393"/>
+        </scene>
+        <!--Chan Pin View Controller - 墓地产品-->
+        <scene sceneID="gEa-Ap-tmB">
+            <objects>
+                <viewController id="pKl-8H-GGo" customClass="HGYChanPinViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="i8V-4U-KKf" customClass="UIImageView">
+                        <rect key="frame" x="0.0" y="20" width="1024" height="748"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="c1g-0s-ipP">
+                                <rect key="frame" x="952" y="25" width="42" height="42"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                <state key="normal" image="setting.png">
+                                    <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="goToSetting:" destination="pKl-8H-GGo" eventType="touchUpInside" id="Czu-kc-GmY"/>
+                                </connections>
+                            </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" id="QHh-rz-Wjw">
+                                <rect key="frame" x="450" y="24" width="124" height="44"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="墓地产品" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="xJ6-5G-Vmw">
+                                <rect key="frame" x="462" y="35" width="100" height="22"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="20"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="iix-1Y-pM0">
+                                <rect key="frame" x="30" y="25" width="42" height="42"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                <state key="normal" image="home.png">
+                                    <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="goToMainPage:" destination="pKl-8H-GGo" eventType="touchUpInside" id="xz1-vg-rfg"/>
+                                </connections>
+                            </button>
+                            <view contentMode="scaleToFill" id="5xE-vN-wcC" customClass="HHSmallRollView">
+                                <rect key="frame" x="0.0" y="200" width="1024" height="305"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="墓地产品" id="1iD-nJ-eo2"/>
+                    <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
+                    <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+                    <connections>
+                        <outlet property="backgroundImageView" destination="i8V-4U-KKf" id="Tme-iU-orP"/>
+                        <outlet property="rollView" destination="5xE-vN-wcC" id="4H1-Kj-jO2"/>
+                        <outlet property="titleBGImageView" destination="QHh-rz-Wjw" id="hC7-hx-Um4"/>
+                        <outlet property="titleLabel" destination="xJ6-5G-Vmw" id="3VR-pV-IPr"/>
+                        <outlet property="view" destination="i8V-4U-KKf" id="nlE-pW-kBG"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="70r-53-2Eb" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1609" y="-297"/>
+        </scene>
+        <!--Fu Wu View Controller - 殡仪服务-->
+        <scene sceneID="u2h-cB-rdp">
+            <objects>
+                <viewController id="aAs-tj-JAQ" customClass="HGYFuWuViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="UaW-Ww-k6S" customClass="UIImageView">
+                        <rect key="frame" x="0.0" y="20" width="1024" height="748"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="0jZ-7k-1YR">
+                                <rect key="frame" x="952" y="25" width="42" height="42"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                <state key="normal" image="setting.png">
+                                    <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="goToSetting:" destination="aAs-tj-JAQ" eventType="touchUpInside" id="vhU-Wv-C95"/>
+                                </connections>
+                            </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" id="91r-T4-zRW">
+                                <rect key="frame" x="450" y="24" width="124" height="44"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="殡仪服务" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="waq-hN-Pwi">
+                                <rect key="frame" x="462" y="35" width="100" height="22"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="20"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="89A-Td-tlL">
+                                <rect key="frame" x="30" y="25" width="42" height="42"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                <state key="normal" image="home.png">
+                                    <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="goToMainPage:" destination="aAs-tj-JAQ" eventType="touchUpInside" id="EJ1-Oe-cQI"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="殡仪服务" id="5yc-pm-Hc7"/>
+                    <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
+                    <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+                    <connections>
+                        <outlet property="backgroundImageView" destination="UaW-Ww-k6S" id="ZYz-YQ-oyZ"/>
+                        <outlet property="titleBGImageView" destination="91r-T4-zRW" id="tKm-Uc-Mhd"/>
+                        <outlet property="titleLabel" destination="waq-hN-Pwi" id="1Ut-In-vOI"/>
+                        <outlet property="view" destination="UaW-Ww-k6S" id="4lL-cD-ge3"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ySl-WB-w1M" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1549" y="903"/>
+        </scene>
+        <!--Gou Mai View Controller - 购买流程-->
+        <scene sceneID="85T-32-XXL">
+            <objects>
+                <viewController id="Sol-mW-4b1" customClass="HGYGouMaiViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="zkx-w0-r3g" customClass="UIImageView">
+                        <rect key="frame" x="0.0" y="20" width="1024" height="748"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="5X6-t5-TmT">
+                                <rect key="frame" x="952" y="25" width="42" height="42"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                <state key="normal" image="setting.png">
+                                    <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="goToSetting:" destination="Sol-mW-4b1" eventType="touchUpInside" id="nPU-SQ-VIi"/>
+                                </connections>
+                            </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" id="k7f-Uw-ESF">
+                                <rect key="frame" x="450" y="24" width="124" height="44"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="购买流程" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="M6g-Y1-A6k">
+                                <rect key="frame" x="462" y="35" width="100" height="22"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="20"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="lvy-0Y-Cn9">
+                                <rect key="frame" x="30" y="25" width="42" height="42"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                <state key="normal" image="home.png">
+                                    <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="goToMainPage:" destination="Sol-mW-4b1" eventType="touchUpInside" id="YDq-rS-cOp"/>
+                                </connections>
+                            </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="goumai_1.png" id="dkD-0V-Ibo">
+                                <rect key="frame" x="93" y="121" width="143" height="178"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="goumai_2.png" id="iPZ-vf-54o">
+                                <rect key="frame" x="304" y="121" width="152" height="178"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="goumai_3.png" id="ufE-nG-8UP">
+                                <rect key="frame" x="526" y="117" width="179" height="186"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="goumai_4.png" id="zh7-dy-7sc">
+                                <rect key="frame" x="768" y="118" width="164" height="184"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="goumai_5.png" id="dDK-EH-Nk5">
+                                <rect key="frame" x="793" y="373" width="115" height="173"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="goumai_6.png" id="3JC-OA-Z2N">
+                                <rect key="frame" x="557" y="373" width="117" height="173"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="goumai_7.png" id="Nrw-s3-mhg">
+                                <rect key="frame" x="306" y="373" width="148" height="173"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="goumai_8.png" id="smq-zu-k7m">
+                                <rect key="frame" x="96" y="373" width="137" height="173"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="right_arrow.png" id="hK0-Hm-nk0">
+                                <rect key="frame" x="244" y="187" width="46" height="46"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="right_arrow.png" id="sfV-vZ-peg">
+                                <rect key="frame" x="464" y="187" width="46" height="46"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="right_arrow.png" id="8Ig-xz-Dd9">
+                                <rect key="frame" x="713" y="187" width="46" height="46"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="down_arrow.png" id="Zoc-Na-c6c">
+                                <rect key="frame" x="827" y="327" width="46" height="46"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="left_arrow.png" id="yQs-Zm-mxe">
+                                <rect key="frame" x="718" y="437" width="46" height="46"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="left_arrow.png" id="I4Y-sq-emz">
+                                <rect key="frame" x="495" y="437" width="46" height="46"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="left_arrow.png" id="l7h-et-Q2y">
+                                <rect key="frame" x="244" y="437" width="46" height="46"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="购买流程" id="Jbp-YI-Whx"/>
+                    <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
+                    <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+                    <connections>
+                        <outlet property="backgroundImageView" destination="zkx-w0-r3g" id="Lm7-J1-cl1"/>
+                        <outlet property="titleBGImageView" destination="k7f-Uw-ESF" id="9gs-Ip-0zd"/>
+                        <outlet property="titleLabel" destination="M6g-Y1-A6k" id="lDU-Cg-85T"/>
+                        <outlet property="view" destination="zkx-w0-r3g" id="xzo-gd-JTE"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="OQq-PY-7mw" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1713" y="1903"/>
+        </scene>
+        <!--Jiao Tong View Controller - 交通联系-->
+        <scene sceneID="9Jg-36-I5f">
+            <objects>
+                <viewController id="kbp-nB-smo" customClass="HGYJiaoTongViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Vve-mH-tSi" customClass="UIImageView">
+                        <rect key="frame" x="0.0" y="20" width="1024" height="748"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="BXX-a2-xBP">
+                                <rect key="frame" x="30" y="25" width="42" height="42"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                <state key="normal" image="home.png">
+                                    <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="goToMainPage:" destination="kbp-nB-smo" eventType="touchUpInside" id="aTU-wn-xT6"/>
+                                </connections>
+                            </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" id="r5c-dN-d19">
+                                <rect key="frame" x="450" y="24" width="124" height="44"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="交通联系" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="MF7-mI-C9a">
+                                <rect key="frame" x="462" y="35" width="100" height="22"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="20"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="Hq2-eG-myB">
+                                <rect key="frame" x="952" y="25" width="42" height="42"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                <state key="normal" image="setting.png">
+                                    <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="goToSetting:" destination="kbp-nB-smo" eventType="touchUpInside" id="62s-hV-1WJ"/>
+                                </connections>
+                            </button>
+                            <view contentMode="scaleToFill" id="uWR-Gl-vgh">
+                                <rect key="frame" x="79" y="95" width="867" height="579"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="交通联系" id="haM-3d-Wqn"/>
+                    <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
+                    <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+                    <connections>
+                        <outlet property="backgroundImageView" destination="Vve-mH-tSi" id="vUI-Zc-E1K"/>
+                        <outlet property="titleBGImageView" destination="r5c-dN-d19" id="4jL-jx-mlP"/>
+                        <outlet property="titleLabel" destination="MF7-mI-C9a" id="wjA-vs-Qhv"/>
+                        <outlet property="view" destination="Vve-mH-tSi" id="FFE-FA-fqp"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="BDI-ox-o3M" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1665" y="2815"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="chanpin_icon.png" width="195" height="144"/>
+        <image name="down_arrow.png" width="46" height="46"/>
+        <image name="fengjing_icon.png" width="194" height="143"/>
+        <image name="fuwu_icon.png" width="194" height="144"/>
+        <image name="goumai_1.png" width="143" height="178"/>
+        <image name="goumai_2.png" width="152" height="178"/>
+        <image name="goumai_3.png" width="179" height="186"/>
+        <image name="goumai_4.png" width="164" height="184"/>
+        <image name="goumai_5.png" width="115" height="173"/>
+        <image name="goumai_6.png" width="117" height="173"/>
+        <image name="goumai_7.png" width="148" height="173"/>
+        <image name="goumai_8.png" width="137" height="173"/>
+        <image name="goumai_icon.png" width="194" height="144"/>
+        <image name="home.png" width="42" height="42"/>
+        <image name="jianjie_icon.png" width="194" height="143"/>
+        <image name="jiaotong_icon.png" width="195" height="144"/>
+        <image name="jieshao-BTbg.png" width="57" height="57"/>
+        <image name="jieshao-BTbg1.png" width="57" height="57"/>
+        <image name="jieshao-bgxiao2.png" width="28" height="14"/>
+        <image name="left_arrow.png" width="46" height="46"/>
+        <image name="liucheng@2x.png" width="1884" height="910"/>
+        <image name="liucheng_icon.png" width="194" height="143"/>
+        <image name="mingren_icon.png" width="195" height="143"/>
+        <image name="right_arrow.png" width="46" height="46"/>
+        <image name="setting.png" width="42" height="42"/>
+    </resources>
+    <classes>
+        <class className="HGYChanPinViewController" superclassName="HGYRootViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/HGYChanPinViewController.h"/>
+            <relationships>
+                <relationship kind="outlet" name="rollView" candidateClass="HHSmallRollView"/>
+            </relationships>
+        </class>
+        <class className="HGYFengJingViewController" superclassName="HGYRootViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/HGYFengJingViewController.h"/>
+            <relationships>
+                <relationship kind="outlet" name="contentBackgroundImageView" candidateClass="UIImageView"/>
+                <relationship kind="outlet" name="tableView" candidateClass="UITableView"/>
+            </relationships>
+        </class>
+        <class className="HGYFuWuViewController" superclassName="HGYRootViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/HGYFuWuViewController.h"/>
+        </class>
+        <class className="HGYGouMaiViewController" superclassName="HGYRootViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/HGYGouMaiViewController.h"/>
+        </class>
+        <class className="HGYJianJieViewController" superclassName="HGYRootViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/HGYJianJieViewController.h"/>
+            <relationships>
+                <relationship kind="action" name="showHonor:"/>
+                <relationship kind="action" name="showJianJie:"/>
+                <relationship kind="outlet" name="arrowImageView" candidateClass="UIImageView"/>
+                <relationship kind="outlet" name="contentBackgroundImageView" candidateClass="UIImageView"/>
+                <relationship kind="outlet" name="detailBackgroundImageView" candidateClass="UIImageView"/>
+                <relationship kind="outlet" name="honorButton" candidateClass="UIButton"/>
+                <relationship kind="outlet" name="jianJieButton" candidateClass="UIButton"/>
+                <relationship kind="outlet" name="scrollView" candidateClass="UIScrollView"/>
+                <relationship kind="outlet" name="textView" candidateClass="UITextView"/>
+            </relationships>
+        </class>
+        <class className="HGYJiaoTongViewController" superclassName="HGYRootViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/HGYJiaoTongViewController.h"/>
+        </class>
+        <class className="HGYLiuChengViewController" superclassName="HGYRootViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/HGYLiuChengViewController.h"/>
+        </class>
+        <class className="HGYMingRenViewController" superclassName="HGYRootViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/HGYMingRenViewController.h"/>
+            <relationships>
+                <relationship kind="outlet" name="rollView" candidateClass="HHSmallRollView"/>
+            </relationships>
+        </class>
+        <class className="HGYRootViewController" superclassName="UIViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/HGYRootViewController.h"/>
+            <relationships>
+                <relationship kind="action" name="back:"/>
+                <relationship kind="action" name="goToMainPage:"/>
+                <relationship kind="action" name="goToSetting:"/>
+                <relationship kind="outlet" name="backgroundImageView" candidateClass="UIImageView"/>
+                <relationship kind="outlet" name="titleBGImageView" candidateClass="UIImageView"/>
+                <relationship kind="outlet" name="titleLabel" candidateClass="UILabel"/>
+            </relationships>
+        </class>
+        <class className="HGYViewController" superclassName="HGYRootViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/HGYViewController.h"/>
+            <relationships>
+                <relationship kind="outlet" name="chanPinButton" candidateClass="UIButton"/>
+                <relationship kind="outlet" name="contentBackgroundImageView" candidateClass="UIImageView"/>
+                <relationship kind="outlet" name="fengJingButton" candidateClass="UIButton"/>
+                <relationship kind="outlet" name="fuWuButton" candidateClass="UIButton"/>
+                <relationship kind="outlet" name="gouMaiButton" candidateClass="UIButton"/>
+                <relationship kind="outlet" name="jianJieButton" candidateClass="UIButton"/>
+                <relationship kind="outlet" name="jiaoTongButton" candidateClass="UIButton"/>
+                <relationship kind="outlet" name="liuChengButton" candidateClass="UIButton"/>
+                <relationship kind="outlet" name="mingRenButton" candidateClass="UIButton"/>
+            </relationships>
+        </class>
+        <class className="HHSmallRollView" superclassName="UIView">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/HHSmallRollView.h"/>
+        </class>
+    </classes>
+    <simulatedMetricsContainer key="defaultSimulatedMetrics">
+        <simulatedStatusBarMetrics key="statusBar" statusBarStyle="blackTranslucent"/>
+        <simulatedOrientationMetrics key="orientation"/>
+        <simulatedScreenMetrics key="destination"/>
+    </simulatedMetricsContainer>
+</document>

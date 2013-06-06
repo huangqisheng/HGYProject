@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>          <!-- 所有产品 -->
+    <dict>            <!-- 单个产品 -->
+        <key>chanPinId</key>       
+        <string>chanpin-01</string>    <!-- 产品id，可以自定义，保证每个产品之间唯一，英文字母，字符或数字组成 -->
+        <key>name</key>
+        <string>高级艺术墓</string>      <!-- 产品名称 -->
+        <key>defaultImage</key>
+        <string>goumai_1.png</string>   <!-- 产品默认图 -->
+    </dict>
+    <dict>            <!-- 单个产品 -->
+        <key>chanPinId</key>
+        <string>chanpin-02</string>    <!-- 产品id，可以自定义，保证每个产品之间唯一，英文字母，字符或数字组成 -->
+        <key>name</key>
+        <string>高级艺术墓</string>      <!-- 产品名称 -->
+        <key>defaultImage</key>
+        <string>goumai_1.png</string>   <!-- 产品默认图 -->
+    </dict>
+    <dict>            <!-- 单个产品 -->
+        <key>chanPinId</key>
+        <string>chanpin-03</string>    <!-- 产品id，可以自定义，保证每个产品之间唯一，英文字母，字符或数字组成 -->
+        <key>name</key>
+        <string>高级艺术墓</string>      <!-- 产品名称 -->
+        <key>defaultImage</key>
+        <string>goumai_1.png</string>   <!-- 产品默认图 -->
+    </dict>
+    <dict>            <!-- 单个产品 -->
+        <key>chanPinId</key>
+        <string>chanpin-04</string>    <!-- 产品id，可以自定义，保证每个产品之间唯一，英文字母，字符或数字组成 -->
+        <key>name</key>
+        <string>高级艺术墓</string>      <!-- 产品名称 -->
+        <key>defaultImage</key>
+        <string>goumai_1.png</string>   <!-- 产品默认图 -->
+    </dict>
+    <dict>            <!-- 单个产品 -->
+        <key>chanPinId</key>
+        <string>chanpin-05</string>    <!-- 产品id，可以自定义，保证每个产品之间唯一，英文字母，字符或数字组成 -->
+        <key>name</key>
+        <string>高级艺术墓</string>      <!-- 产品名称 -->
+        <key>defaultImage</key>
+        <string>goumai_1.png</string>   <!-- 产品默认图 -->
+    </dict>
+    <dict>            <!-- 单个产品 -->
+        <key>chanPinId</key>
+        <string>chanpin-06</string>    <!-- 产品id，可以自定义，保证每个产品之间唯一，英文字母，字符或数字组成 -->
+        <key>name</key>
+        <string>高级艺术墓</string>      <!-- 产品名称 -->
+        <key>defaultImage</key>
+        <string>goumai_1.png</string>   <!-- 产品默认图 -->
+    </dict>
+    <dict>            <!-- 单个产品 -->
+        <key>chanPinId</key>
+        <string>chanpin-07</string>    <!-- 产品id，可以自定义，保证每个产品之间唯一，英文字母，字符或数字组成 -->
+        <key>name</key>
+        <string>高级艺术墓</string>      <!-- 产品名称 -->
+        <key>defaultImage</key>
+        <string>goumai_1.png</string>   <!-- 产品默认图 -->
+    </dict>
+    <dict>            <!-- 单个产品 -->
+        <key>chanPinId</key>
+        <string>chanpin-08</string>    <!-- 产品id，可以自定义，保证每个产品之间唯一，英文字母，字符或数字组成 -->
+        <key>name</key>
+        <string>高级艺术墓</string>      <!-- 产品名称 -->
+        <key>defaultImage</key>
+        <string>goumai_1.png</string>   <!-- 产品默认图 -->
+    </dict>
+    <dict>            <!-- 单个产品 -->
+        <key>chanPinId</key>
+        <string>chanpin-09</string>    <!-- 产品id，可以自定义，保证每个产品之间唯一，英文字母，字符或数字组成 -->
+        <key>name</key>
+        <string>高级艺术墓</string>      <!-- 产品名称 -->
+        <key>defaultImage</key>
+        <string>goumai_1.png</string>   <!-- 产品默认图 -->
+    </dict>
+    <dict>            <!-- 单个产品 -->
+        <key>chanPinId</key>
+        <string>chanpin-10</string>    <!-- 产品id，可以自定义，保证每个产品之间唯一，英文字母，字符或数字组成 -->
+        <key>name</key>
+        <string>高级艺术墓</string>      <!-- 产品名称 -->
+        <key>defaultImage</key>
+        <string>goumai_1.png</string>   <!-- 产品默认图 -->
+    </dict>
+    <dict>            <!-- 单个产品 -->
+        <key>chanPinId</key>
+        <string>chanpin-11</string>    <!-- 产品id，可以自定义，保证每个产品之间唯一，英文字母，字符或数字组成 -->
+        <key>name</key>
+        <string>高级艺术墓</string>      <!-- 产品名称 -->
+        <key>defaultImage</key>
+        <string>goumai_1.png</string>   <!-- 产品默认图 -->
+    </dict>
+    <dict>            <!-- 单个产品 -->
+        <key>chanPinId</key>
+        <string>chanpin-12</string>    <!-- 产品id，可以自定义，保证每个产品之间唯一，英文字母，字符或数字组成 -->
+        <key>name</key>
+        <string>高级艺术墓</string>      <!-- 产品名称 -->
+        <key>defaultImage</key>
+        <string>goumai_1.png</string>   <!-- 产品默认图 -->
+    </dict>
+    <dict>            <!-- 单个产品 -->
+        <key>chanPinId</key>
+        <string>chanpin-13</string>    <!-- 产品id，可以自定义，保证每个产品之间唯一，英文字母，字符或数字组成 -->
+        <key>name</key>
+        <string>高级艺术墓</string>      <!-- 产品名称 -->
+        <key>defaultImage</key>
+        <string>goumai_1.png</string>   <!-- 产品默认图 -->
+    </dict>
+    <dict>            <!-- 单个产品 -->
+        <key>chanPinId</key>
+        <string>chanpin-14</string>    <!-- 产品id，可以自定义，保证每个产品之间唯一，英文字母，字符或数字组成 -->
+        <key>name</key>
+        <string>高级艺术墓</string>      <!-- 产品名称 -->
+        <key>defaultImage</key>
+        <string>goumai_1.png</string>   <!-- 产品默认图 -->
+    </dict>
+    <dict>            <!-- 单个产品 -->
+        <key>chanPinId</key>
+        <string>chanpin-15</string>    <!-- 产品id，可以自定义，保证每个产品之间唯一，英文字母，字符或数字组成 -->
+        <key>name</key>
+        <string>高级艺术墓</string>      <!-- 产品名称 -->
+        <key>defaultImage</key>
+        <string>goumai_1.png</string>   <!-- 产品默认图 -->
+    </dict>
+    <dict>            <!-- 单个产品 -->
+        <key>chanPinId</key>
+        <string>chanpin-16</string>    <!-- 产品id，可以自定义，保证每个产品之间唯一，英文字母，字符或数字组成 -->
+        <key>name</key>
+        <string>高级艺术墓</string>      <!-- 产品名称 -->
+        <key>defaultImage</key>
+        <string>goumai_1.png</string>   <!-- 产品默认图 -->
+    </dict>
+    <dict>            <!-- 单个产品 -->
+        <key>chanPinId</key>
+        <string>chanpin-17</string>    <!-- 产品id，可以自定义，保证每个产品之间唯一，英文字母，字符或数字组成 -->
+        <key>name</key>
+        <string>高级艺术墓</string>      <!-- 产品名称 -->
+        <key>defaultImage</key>
+        <string>goumai_1.png</string>   <!-- 产品默认图 -->
+    </dict>
+    <dict>            <!-- 单个产品 -->
+        <key>chanPinId</key>
+        <string>chanpin-18</string>    <!-- 产品id，可以自定义，保证每个产品之间唯一，英文字母，字符或数字组成 -->
+        <key>name</key>
+        <string>高级艺术墓</string>      <!-- 产品名称 -->
+        <key>defaultImage</key>
+        <string>goumai_1.png</string>   <!-- 产品默认图 -->
+    </dict>
+</array>
+</plist>

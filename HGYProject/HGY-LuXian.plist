@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>   <!-- 所有路线 -->
+    <dict>        
+        <key>name</key>
+        <string>路线1</string>     <!-- 路线名称，不要太长，4个字内 -->
+        <key>points</key>
+        <array>                         <!-- 路线动画点 -->
+            <dict>
+                <key>x</key>
+                <real>1.2</real>
+                <key>y</key>
+                <real>1.2</real>
+            </dict>
+            <dict>
+                <key>x</key>
+                <real>1.2</real>
+                <key>y</key>
+                <real>1.2</real>
+            </dict>
+            <dict>
+                <key>x</key>
+                <real>1.2</real>
+                <key>y</key>
+                <real>1.2</real>
+            </dict>
+            <dict>
+                <key>x</key>
+                <real>1.2</real>
+                <key>y</key>
+                <real>1.2</real>
+            </dict>
+            <dict>
+                <key>x</key>
+                <real>1.2</real>
+                <key>y</key>
+                <real>1.2</real>
+            </dict>
+            <dict>
+                <key>x</key>
+                <real>1.2</real>
+                <key>y</key>
+                <real>1.2</real>
+            </dict>
+            <dict>
+                <key>x</key>
+                <real>1.2</real>
+                <key>y</key>
+                <real>1.2</real>
+            </dict>
+        </array>
+    </dict>
+</array>
+</plist>

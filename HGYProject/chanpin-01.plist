@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+    <dict>
+        <key>name</key>
+        <string>高级艺术墓</string>      <!-- 产品名称 -->
+        <key>material</key>
+        <string>金刚石</string>
+        <key>size</key>
+        <string>85cm X 190cm</string>
+        <key>feature</key>
+        <string>在此声明：
+            1.您通过本软件参加的商业活动，与Apple Inc.无关。
+            2.本软件将采集手机UDID(unique identifier)，允许第三方使用。与用户个人相关>的所有信息（包括地址、联系方式等）将不会以任何形式提供给第三方，或者用于其他不相关的用途。
+        </string>
+        <key>defaultImage</key>
+        <string>goumai_1.png</string>   <!-- 产品默认图 -->
+        <key>thumbnails</key>
+        <array>                           <!-- 产品图片的小图 -->
+            <string>goumai_1.png</string>
+            <string>goumai_2.png</string>
+        </array>
+        <key>images</key>
+        <array>                         <!-- 产品图片大图 -->
+            <string>goumai_1.png</string>
+            <string>goumai_2.png</string>
+        </array>
+    </dict>
+    <dict>
+        <key>name</key>
+        <string>高级艺术墓</string>      <!-- 产品名称 -->
+        <key>material</key>
+        <string>金刚石</string>
+        <key>size</key>
+        <string>85cm X 190cm</string>
+        <key>feature</key>
+        <string>fdagdsagdsagdsafdsaewqgfsfw,
+        wertwqetretertrqeterqewqterwqterwqtewr,
+            tretqwetrewqtewrqtqwetewqr
+            terqtterwqtqwertewqr
+            treqtqretrqewtreqwtewqrt
+            treqtrqewterwqtewrqtewrq
+            treqwtrweqtrewqtewrqtewq
+            treqtrewqtewqtewrewqtewterw
+            treterywerytrewtre
+        </string>
+        <key>defaultImage</key>
+        <string>goumai_1.png</string>   <!-- 产品默认图 -->
+        <key>thumbnails</key>
+        <array>                           <!-- 产品图片的小图 -->
+            <string>goumai_1.png</string>
+            <string>goumai_1.png</string>
+        </array>
+        <key>images</key>
+        <array>                         <!-- 产品图片大图 -->
+            <string>goumai_1.png</string>
+            <string>goumai_1.png</string>
+        </array>
+    </dict>
+    <dict>
+        <key>name</key>
+        <string>高级艺术墓</string>      <!-- 产品名称 -->
+        <key>material</key>
+        <string>金刚石</string>
+        <key>size</key>
+        <string>85cm X 190cm</string>
+        <key>feature</key>
+        <string>fdagdsagdsagdsafdsaewqgfsfw,
+            wertwqetretertrqeterqewqterwqterwqtewr,
+            tretqwetrewqtewrqtqwetewqr
+            terqtterwqtqwertewqr
+            treqtqretrqewtreqwtewqrt
+            treqtrqewterwqtewrqtewrq
+            treqwtrweqtrewqtewrqtewq
+            treqtrewqtewqtewrewqtewterw
+            treterywerytrewtre
+        </string>
+        <key>defaultImage</key>
+        <string>goumai_1.png</string>   <!-- 产品默认图 -->
+        <key>thumbnails</key>
+        <array>                           <!-- 产品图片的小图 -->
+            <string>goumai_1.png</string>
+            <string>goumai_1.png</string>
+        </array>
+        <key>images</key>
+        <array>                         <!-- 产品图片大图 -->
+            <string>goumai_1.png</string>
+            <string>goumai_1.png</string>
+        </array>
+    </dict>
+</array>
+</plist>
